@@ -566,12 +566,12 @@ p {
     display: flex;
     align-items: center;
     justify-content: center; /* Ini menempatkan item di tengah kontainer item-box */
-    width: 2400px; /* Lebar box sesuai kebutuhan */
+    width: 190%; /* Lebar box sesuai kebutuhan */
     height: 900px;
 }
 
 .wa {
-    width: 50px; /* Atur ukuran ikon sesuai kebutuhan */
+    width: 90%; /* Atur ukuran ikon sesuai kebutuhan */
     height: auto; /* Pertahankan rasio aspek gambar */
 }
 
