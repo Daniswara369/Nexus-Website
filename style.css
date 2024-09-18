@@ -554,6 +554,27 @@ p {
 }
 /* End Footer */
 
+#iconwa
+.box-wa {
+    position: fixed;
+    bottom: 20px; /* Jarak dari bawah */
+    right: 20px; /* Jarak dari kanan */
+    z-index: 1000; /* Pastikan elemen berada di atas elemen lainnya */
+}
+
+.item-box {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Ini menempatkan item di tengah kontainer item-box */
+    width: 2400px; /* Lebar box sesuai kebutuhan */
+    height: 900px;
+}
+
+.wa {
+    width: 50px; /* Atur ukuran ikon sesuai kebutuhan */
+    height: auto; /* Pertahankan rasio aspek gambar */
+}
+
 /* Keyframes */
 @keyframes hamburger_puls {
 	0% {
